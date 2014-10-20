@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+  <setting>
+    
+    <!-- 壓縮檔路徑 -->
+    <warName>/Users/LCHPauwhay/Desktop/test.war</warName>
+
+    <!-- 解壓縮資料夾路徑 -->
+    <srcFolder>/Users/LCHPauwhay/Desktop/test</srcFolder>
+  
+  </setting>
+
+  <list>
+    
+    <!-- 需不需要解壓縮 y or n -->
+    <needCps>n</needCps>
+
+    <!-- 需解壓縮請填壓縮檔路徑 -->
+    <zipPath></zipPath>
+    
+    <!-- 欲修改檔案名稱 -->
+    <fileName>outSide.xml</fileName>
+    
+    <!-- (必填)要修改的類型，例如(attribute or content)-->
+    <type>content</type>
+    
+    <!-- 如果 type 為 attribute，請輸入屬性名稱 -->
+    <attrName></attrName>
+    
+    <!-- 要修改哪個部分 請輸入完整 XPath -->
+    <nodeXPath>/root/title</nodeXPath>
+    
+    <!-- 要修改成什麼 -->
+    <modifyTo>已成功修改</modifyTo>
+
+  </list>
+
+  <list>
+      
+    <!-- 需不需要解壓縮 y or n -->
+    <needCps>n</needCps>
+
+    <!-- 需解壓縮請填壓縮檔路徑 -->
+    <zipPath></zipPath>
+    
+    <!-- 欲修改檔案名稱 -->
+    <fileName>outSide/outSide.xml</fileName>
+    
+    <!-- (必填)要修改的類型，例如(attribute or content)-->
+    <type>content</type>
+    
+    <!-- 如果 type 為 attribute，請輸入屬性名稱 -->
+    <attrName></attrName>
+    
+    <!-- 要修改哪個部分 請輸入完整 XPath -->
+    <nodeXPath>/root/title</nodeXPath>
+    
+    <!-- 要修改成什麼 -->
+    <modifyTo>已成功修改</modifyTo>
+
+  </list>
+
+  <list>
+    
+    <!-- 需不需要解壓縮 y or n -->
+    <needCps>n</needCps>
+
+    <!-- 需解壓縮請填壓縮檔路徑 -->
+    <zipPath></zipPath>
+    
+    <!-- 欲修改檔案名稱 -->
+    <fileName>Folder/inSide.xml</fileName>
+    
+    <!-- (必填)要修改的類型，例如(attribute or content)-->
+    <type>content</type>
+    
+    <!-- 如果 type 為 attribute，請輸入屬性名稱 -->
+    <attrName></attrName>
+    
+    <!-- 要修改哪個部分 請輸入完整 XPath -->
+    <nodeXPath>/root/title</nodeXPath>
+    
+    <!-- 要修改成什麼 -->
+    <modifyTo>已成功修改</modifyTo>
+
+  </list>
+
+  <list>
+        
+    <!-- 需不需要解壓縮 y or n -->
+    <needCps>n</needCps>
+
+    <!-- 需解壓縮請填壓縮檔路徑 -->
+    <zipPath></zipPath>
+    
+    <!-- 欲修改檔案名稱 -->
+    <fileName>Folder/inSide/inSide.xml</fileName>
+    
+    <!-- (必填)要修改的類型，例如(attribute or content)-->
+    <type>content</type>
+    
+    <!-- 如果 type 為 attribute，請輸入屬性名稱 -->
+    <attrName></attrName>
+    
+    <!-- 要修改哪個部分 請輸入完整 XPath -->
+    <nodeXPath>/root/title</nodeXPath>
+    
+    <!-- 要修改成什麼 -->
+    <modifyTo>已成功修改</modifyTo>
+
+  </list>
+
+  <list>
+    
+    <!-- 需不需要解壓縮 y or n -->
+    <needCps>y</needCps>
+
+    <!-- 需解壓縮請填壓縮檔路徑 -->
+    <zipPath>outSide.zip</zipPath>
+    
+    <!-- 欲修改檔案名稱 -->
+    <fileName>outSide.xml</fileName>
+    
+    <!-- (必填)要修改的類型，例如(attribute or content)-->
+    <type>content</type>
+    
+    <!-- 如果 type 為 attribute，請輸入屬性名稱 -->
+    <attrName></attrName>
+    
+    <!-- 要修改哪個部分 請輸入完整 XPath -->
+    <nodeXPath>/root/title</nodeXPath>
+    
+    <!-- 要修改成什麼 -->
+    <modifyTo>已成功修改</modifyTo>
+
+  </list>
+
+  <list>
+    
+    <!-- 需不需要解壓縮 y or n -->
+    <needCps>y</needCps>
+
+    <!-- 需解壓縮請填壓縮檔路徑 -->
+    <zipPath>Folder/inSide.zip</zipPath>
+    
+    <!-- 欲修改檔案名稱 -->
+    <fileName>inSide.xml</fileName>
+    
+    <!-- (必填)要修改的類型，例如(attribute or content)-->
+    <type>content</type>
+    
+    <!-- 如果 type 為 attribute，請輸入屬性名稱 -->
+    <attrName></attrName>
+    
+    <!-- 要修改哪個部分 請輸入完整 XPath -->
+    <nodeXPath>/root/title</nodeXPath>
+    
+    <!-- 要修改成什麼 -->
+    <modifyTo>已成功修改</modifyTo>
+
+  </list>
+  
+</root>
